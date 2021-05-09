@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>Microsoft.Azure.Services.AppAuthentication.Config</id>
+		<version>1.0.0</version>
+		<title>Azure AppAuthentication Xml Configuration</title>
+		<authors>Gunnar Már Óttarsson</authors>
+		<owners>Gunnar Már Óttarsson</owners>
+		<license type="expression">MIT</license>
+		<projectUrl>https://www.vettvangur.is/</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Transforms a AspNet Framework web.config for use with Azure AppAuthentication.</description>
+		<releaseNotes>Initial Release.</releaseNotes>
+		<copyright></copyright>
+		<tags></tags>
+		<dependencies>
+			<group targetFramework=".NETFramework4.5.2">
+				<dependency id="Microsoft.Azure.Services.AppAuthentication"/>
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+        <file src="web.config.install.xdt" target="content\" />
+    </files>
+</package>

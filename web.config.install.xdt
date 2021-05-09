@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <appSettings>
+        <add key="IcelandAuth:ID" value="" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)" />
+        <add key="IcelandAuth:Destination" value="" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)" />
+        <add key="IcelandAuth:DestinationSSN" value="" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)"  />
+        <add key="IcelandAuth:VerifyIPAddress" value="True" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)" />
+    </appSettings>
+
+  <configSections>
+    <section 
+      name="SqlAuthenticationProviders" 
+      type="System.Data.SqlClient.SqlAuthenticationProviderConfigurationSection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" 
+      xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"
+    />
+  </configSections>
+
+  <SqlAuthenticationProviders xdt:Transform="InsertIfMissing">
+    <providers>
+      <add name="Active Directory Interactive" type="Microsoft.Azure.Services.AppAuthentication.SqlAppAuthenticationProvider, Microsoft.Azure.Services.AppAuthentication" />
+    </providers>
+  </SqlAuthenticationProviders>
+
+</configuration>
