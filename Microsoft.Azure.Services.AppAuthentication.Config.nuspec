@@ -7,7 +7,7 @@
 		<authors>Gunnar Már Óttarsson</authors>
 		<owners>Gunnar Már Óttarsson</owners>
 		<license type="expression">MIT</license>
-		<projectUrl>https://www.vettvangur.is/</projectUrl>
+		<projectUrl>https://github.com/gunnim/Microsoft.Azure.Services.AppAuthentication.Config</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Transforms a AspNet Framework web.config for use with Azure AppAuthentication.</description>
 		<releaseNotes>Initial Release.</releaseNotes>

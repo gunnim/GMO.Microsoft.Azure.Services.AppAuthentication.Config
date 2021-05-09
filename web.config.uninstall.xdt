@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <configSections>
-    <section 
-      name="SqlAuthenticationProviders" 
-      type="System.Data.SqlClient.SqlAuthenticationProviderConfigurationSection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" 
-      xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"
-    />
-  </configSections>
 
   <SqlAuthenticationProviders>
     <providers>
       <add 
         name="Active Directory Interactive" 
         type="Microsoft.Azure.Services.AppAuthentication.SqlAppAuthenticationProvider, Microsoft.Azure.Services.AppAuthentication" 
-        xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"
+        xdt:Transform="Remove" xdt:Locator="Match(name)"
       />
     </providers>
   </SqlAuthenticationProviders>
