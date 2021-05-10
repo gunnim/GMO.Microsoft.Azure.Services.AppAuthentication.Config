@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <package>
 	<metadata>
-		<id>Microsoft.Azure.Services.AppAuthentication.Config</id>
+		<id>GMO.Microsoft.Azure.Services.AppAuthentication.Config</id>
 		<version>1.0.0</version>
 		<title>Azure AppAuthentication Xml Configuration</title>
 		<authors>Gunnar Már Óttarsson</authors>
 		<owners>Gunnar Már Óttarsson</owners>
 		<license type="expression">MIT</license>
-		<projectUrl>https://github.com/gunnim/Microsoft.Azure.Services.AppAuthentication.Config</projectUrl>
+		<projectUrl>https://github.com/gunnim/GMO.Microsoft.Azure.Services.AppAuthentication.Config</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Transforms a AspNet Framework web.config for use with Azure AppAuthentication.</description>
+		<description>Transforms an AspNet Framework web.config for use with Azure AppAuthentication.</description>
 		<releaseNotes>Initial Release.</releaseNotes>
 		<copyright></copyright>
 		<tags></tags>
 		<dependencies>
 			<group targetFramework=".NETFramework4.5.2">
-				<dependency id="Microsoft.Azure.Services.AppAuthentication"/>
+				<dependency id="Microsoft.Azure.Services.AppAuthentication" version="1.0" />
 			</group>
 		</dependencies>
 	</metadata>
